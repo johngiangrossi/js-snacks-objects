@@ -20,16 +20,16 @@ const automobili = [
     { marca: "Hyundai", modello: "Ioniq", alimentazione: "elettrico" },
     { marca: "Mercedes", modello: "A-Class", alimentazione: "benzina" },
     { marca: "Audi", modello: "Q5", alimentazione: "metano" }
-  ];
+  ];    //array(object)
   
 console.log(automobili);
-const automobiliBenzina = [];
-const automobiliDiesel = [];
-const automobiliVari = [];
+const automobiliBenzina = [];  //array(object)
+const automobiliDiesel = [];  //array(object)
+const automobiliVari = [];   //array(object)
 
 for (let i = 0; i < automobili.length; i++) {
-    const automobile = automobili[i];
-    console.log(i, automobile);
+    const automobile = automobili[i];   //array(object)
+    // console.log(i, automobile);  
 
     if (automobile.alimentazione === 'benzina') {
         automobiliBenzina.push(automobile)
